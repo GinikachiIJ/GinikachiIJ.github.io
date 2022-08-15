@@ -2,4 +2,4 @@
 
 Survey form, which can be tweaked for a job application website. 
 
-https://studentresidentialsurvey.github.io
+GinikachiIJ.github.io
