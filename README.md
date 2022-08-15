@@ -2,4 +2,3 @@
 
 Survey form, which can be tweaked for a job application website. 
 
-GinikachiIJ.github.io
