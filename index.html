@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!-- Survey for practising my CSS/html-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title id="title">Student residential survey</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <img src="image/school-design.png" alt="university campus">
+    <hr>
+  <h1>University of XYZ - Residential life Survey </h1>
+  <p id="description">Thank you for taking time to fill out this form. This survey is to lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum </p>
+  <form action='https://drive.google.com/drive/folders/1HzXmBuBvnhRxKiC9GRVB3_uXBKWGaMow' id="survey-form">
+<div class="container">
+   <fieldset>
+     <label>Name <input type="text" id="name-label" placeholder="Enter your name" required /></label>
+     <label>Email <input type="email" id="email-label" placeholder="Enter your email" required /></label>
+     <label>Age (optional) <input type="number" id="number-label" placeholder="Age" min="16" max="40">
+
+     <label>What is your class year?
+      <select id="dropdown" required>
+        <option value="">(select one)</option>
+        <option value="1">Freshman</option>
+        <option value="2">Sophomore</option>
+        <option value="3">Junior</option>
+        <option value="4">Senior</option>
+      </select>
+      </label>
+
+      <label>Select your residential building:
+        <select id="dropdown-residential" required>
+          <option value="">(select one)</option>
+          <option value="1">BP dorm</option>
+          <option value="2">XY dorm</option>
+        </select>
+        </label>
+     </fieldset>
+
+
+    <fieldset>
+     <label>How satisfied are you with your current dorm?</label>
+     <label><input type="radio" value="1" name="satisfaction-rating" id="button1"/>Satisfied</label>
+     <label><input type="radio" value="2" name="satisfaction-rating" id="button2"/>Moderately satisfied</label>
+     <label><input type="radio" value="3" name="satisfaction-rating" id="button3"/>Dissatisfied</label>
+    </fieldset>
+
+    <fieldset>
+     <label>What would like to see improved in the dorms?</label>
+       <label><input type="checkbox" name="improvement1" value="1" id="box1"/>Reslife programs</label>
+       <label><input type="checkbox" name="improvement2" value="2" id="box2"/>Lounge and Kitchen</label>
+       <label><input type="checkbox" name="improvement3" value="3" id="box3"/>Roommate selection process</label>
+       <label><input type="checkbox" name="improvement4" value="4" id="box4"/>Quiet hours</label>
+       <label><input type="checkbox" name="improvement5" value="5" id="box5"/>Study area</label>
+    </fieldset>
+
+    <fieldset>
+       <label>Add any suggestions or comments in the space below
+         <textarea name="comments" rows="5" cols="30" placeholder="Enter your comments here..."></textarea>
+       </label>
+     </fieldset>
+
+     <input type="submit" value="Submit" id="submit"/>
+
+    </div>
+
+</body>
+
+<!--<footer>
+</footer>-->
+
+
+
+</html>

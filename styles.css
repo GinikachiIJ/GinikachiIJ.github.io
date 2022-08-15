@@ -1,0 +1,127 @@
+
+
+body {
+font-family: "Helectiva" "Times New Roman" "Georgia";
+padding: 20px;
+background-color: azure;
+opacity: 100%;
+}
+
+img {
+margin-top: 0;
+  height: 250px;
+  width: 1150px;
+  margin-bottom: 0;
+  display: block;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.container {
+  background-color: indigo;
+  padding: 20px;
+  color: white;
+  width: 70vw;
+  max-width: 680px;
+  min-width: 430px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  width: 60vw;
+}
+
+h1{
+  margin: 1em auto;
+  text-align: center;
+}
+p {
+    margin: 1em auto;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+
+/*form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}*/
+
+
+/*#name-label, #email-label, #number-label, #dropdown, #dropdown-residential {
+  display: block;
+  margin-top: 20px;
+  width: 80%;
+  height: 20px;
+  padding: 5px 10px;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}*/
+
+/*fieldset {
+  border: none;
+  padding: 2rem 0;
+}*/
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+#button1, #button2, #button3 {
+width: unset;
+margin: 0 0.5em 0 0;
+vertical-align: middle;
+display: inline-block;
+}
+
+#box1, #box2, #box3, #box4, #box5 {
+width: unset;
+margin: 0 0.5em 0 0;
+vertical-align: middle;
+display: inline-flex;
+}
+
+input,
+select {
+  margin: 1px 0 20px 0;
+  width: 100%;
+  height:2.5em;
+  min-height: 2.5em;
+  display: block;
+}
+
+textarea {
+  margin: 1px 0 20px 0;
+  width: 100%;
+  min-height: 3em;
+  display: block;
+}
+
+
+input[type="submit"] {
+  display: block;
+  width: 40%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: white;
+  border-color: black;
+  min-width: 300px;
+}
+
+/*input[type="radio"] {
+  margin-top: -1px;
+  vertical-align: middle;
+  border: 0px;
+  width: 100%;
+  height: 2em;
+}*/
